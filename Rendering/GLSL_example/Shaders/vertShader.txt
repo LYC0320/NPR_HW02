@@ -1,0 +1,61 @@
+#version 400 core
+
+layout (location = 0) in vec3 position;
+layout (location = 1) in vec2 texCoord;
+layout (location = 2) in vec3 normal;
+// bump map
+layout (location = 3) in vec3 tangent;
+layout (location = 4) in vec3 bitangent;
+
+out vec2 TexCoord;
+out vec3 lightPosF;
+out vec4 positionF;
+out vec4 normalF;
+
+uniform sampler2D MyTexture_1;
+
+// bump map
+out mat3 TBN;
+
+
+uniform mat4 MVP;
+uniform mat4 V;
+uniform mat4 P;
+uniform mat4 M;
+uniform vec3 lightPos;
+
+vec4 color;
+vec3 positionH;
+
+void main()
+{
+	// bump map
+	//TBN = mat3(tangent, bitangent, normal);
+
+	TBN = mat3(tangent, bitangent, normal);
+
+	TexCoord = texCoord;
+
+	// height map
+	color = texture2D(MyTexture_1, TexCoord);
+	positionH = position;
+	// height map
+
+	lightPosF = vec3(V * vec4(lightPos, 1.0));
+	normalF = vec4(  normalize(  mat3(transpose(inverse(V * M) ) )  * normal ), 1.0 ) ; // object normal to world normal
+
+
+	// height map
+	if(color.x != 139.0 / 255.0)
+	{
+		positionH = position + vec3(normal)*0.1;
+	}
+	// height map
+
+	//normalF = vec4(  normalize(  mat3(V * M)    * normal ), 1.0 ) ;
+
+	positionF = V * M * vec4(positionH, 1.0);
+
+	gl_Position = P * V * M * vec4(positionH, 1.0);
+
+}

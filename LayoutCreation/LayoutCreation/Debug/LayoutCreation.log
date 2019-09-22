@@ -1,0 +1,28 @@
+﻿  Source.cpp
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\stb_image_write.h(285): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\stb_image_write.h(692): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\stb_image_write.h(1118): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(215): warning C4018: '<=': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(237): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(243): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(253): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(263): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(283): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(288): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(300): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(310): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(348): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(383): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(405): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(412): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(427): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(431): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(444): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(448): warning C4018: '<': signed/unsigned mismatch
+c:\users\cxl\documents\visual studio 2015\projects\npr_hw02\layoutcreation\layoutcreation\mytools.h(516): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  LayoutCreation.vcxproj -> C:\Users\cxl\Documents\Visual Studio 2015\Projects\NPR_HW02\LayoutCreation\Debug\LayoutCreation.exe
+  LayoutCreation.vcxproj -> C:\Users\cxl\Documents\Visual Studio 2015\Projects\NPR_HW02\LayoutCreation\Debug\LayoutCreation.pdb (Full PDB)
